@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:padding="10dp"
+	android:descendantFocusability="blocksDescendants"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/linId"
+		android:layout_centerInParent="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="5dp"
+		android:backgroundTint="@color/colorAccent"
+		android:background="@drawable/round">
+	<LinearLayout	
+		android:layout_centerInParent="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="5dp">
+		<LinearLayout
+			android:gravity="center"
+			android:padding="5dp"
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			>	
+			<LinearLayout
+				android:layout_marginRight="5dp"
+				android:id="@+id/lin1"
+				android:gravity="left"
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+				
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+					<TextView
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textSize="11sp"
+						android:textStyle="bold"
+						android:hint="Id Alternatif		:"
+						android:textColorHint="@color/colorWhite"
+						android:layout_width="wrap_content"/>
+
+					<TextView
+						android:gravity="center"
+						android:id="@+id/txtId"
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textSize="11sp"
+						android:text=""
+						android:textColor="@color/colorWhite"
+						android:layout_width="match_parent"/>
+				</LinearLayout>
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">	
+					<TextView
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textStyle="bold"
+						android:textSize="11sp"
+						android:hint="Nama						:"
+						android:textColorHint="@color/colorWhite"
+						android:layout_width="wrap_content"/>
+					<TextView
+						android:gravity="center"
+						android:id="@+id/txtNama"
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textSize="11sp"
+						android:textColor="@color/colorWhite"
+						android:layout_width="match_parent"/>
+				</LinearLayout>
+					
+				<LinearLayout
+					android:gravity="center_vertical"
+					android:orientation="horizontal"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">	
+					<TextView
+						android:padding="5dp"
+						android:layout_height="wrap_content"
+						android:textSize="11sp"
+						android:textStyle="bold"
+						android:hint="Alamat					:"
+						android:textColorHint="@color/colorWhite"
+						android:layout_width="wrap_content"/>
+					<TextView
+						android:gravity="center"
+						android:id="@+id/txtAlamat"
+						android:inputType="textMultiLine"	
+						android:padding="5dp"
+						android:layout_height="50dp"
+						android:textSize="11sp"
+						android:textColor="@color/colorWhite"
+						android:layout_width="match_parent"/>
+				</LinearLayout>
+
+				
+			</LinearLayout>
+				
+		</LinearLayout>
+	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

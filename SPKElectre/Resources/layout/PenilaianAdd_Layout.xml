@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+
+    <LinearLayout
+		android:layout_gravity="center_vertical"
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:background="@color/colorAccent"
+		android:elevation="4dp"
+        android:padding="10dp"
+		android:layout_height="?android:attr/actionBarSize">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:weightSum="1">
+
+		<ImageView
+			android:src="@drawable/arrow"
+			android:layout_width="wrap_content"
+			android:layout_height ="wrap_content"
+			android:id="@+id/imgArrow"
+                android:paddingLeft="-20dp"
+            android:layout_weight="0.1"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"/>
+
+        <ImageView
+             android:id="@+id/imgSave"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save"
+            android:paddingRight="-20dp"
+            />
+
+        </LinearLayout>
+	</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinAlternatif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+         <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinKriteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinSubkriteria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:hint="Nilai Subkriteria"    
+            android:id="@+id/txtNilai"
+            android:inputType="number"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/round"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="12sp"/>
+
+        </LinearLayout>
+
+</LinearLayout>

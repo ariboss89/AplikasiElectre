@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ariramadhan/Projects/SPKElectre/SPKElectre/SPKElectre.csproj": {}
+  },
+  "projects": {
+    "/Users/ariramadhan/Projects/SPKElectre/SPKElectre/SPKElectre.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ariramadhan/Projects/SPKElectre/SPKElectre/SPKElectre.csproj",
+        "projectName": "SPKElectre",
+        "projectPath": "/Users/ariramadhan/Projects/SPKElectre/SPKElectre/SPKElectre.csproj",
+        "packagesPath": "/Users/ariramadhan/.nuget/packages/",
+        "outputPath": "/Users/ariramadhan/Projects/SPKElectre/SPKElectre/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/ariramadhan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Refractored.Controls.CircleImageView": {
+              "target": "Package",
+              "version": "[1.2.0-beta, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "sqlite-net": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="70dp"
+            android:textStyle="bold"
+            android:text="No"
+            android:textSize="9sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txtId"
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.025"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:textStyle="bold"
+            android:text="Alternatif"
+            android:textColor="@color/colorBlack"
+            android:layout_height="70dp"
+            android:textSize="9sp"
+           android:id="@+id/txtAlternatif"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.025"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="70dp"
+            android:textStyle="bold"
+            android:text="Jalur Feeder"
+            android:textSize="9sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txtKriteria"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.025"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="70dp"
+            android:textStyle="bold"
+            android:text="Pilihan"
+            android:textSize="9sp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txtPilihan"
+            />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.025"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="0.09"
+            android:layout_height="70dp"
+            android:textStyle="bold"
+            android:textSize="9sp"
+            android:text="8"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/txtNilai"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
