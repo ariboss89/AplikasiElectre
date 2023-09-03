@@ -9,11 +9,11 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:icon="@drawable/indihome" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true" android:name="android.app.Application" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:label="AlternatifActivity" android:name="crc64d5c6f188d00953c6.AlternatifActivity" />
     <activity android:label="KriteriaActivity" android:name="crc64d5c6f188d00953c6.KriteriaActivity" />
     <activity android:label="SubkriteriaActivity" android:name="crc64126cfab626621b6a.SubkriteriaActivity" />
-    <activity android:label="MainActivity" android:name="crc64126cfab626621b6a.MainActivity" android:exported="true">
+    <activity android:label="Spk Electre" android:name="crc64126cfab626621b6a.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

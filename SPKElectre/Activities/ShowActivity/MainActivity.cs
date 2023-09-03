@@ -16,7 +16,7 @@ using SPKElectre.Helper;
 
 namespace SPKElectre.Activities.ShowActivity
 {
-	[Activity (Label = "MainActivity", MainLauncher =true)]			
+	[Activity (Label = "Spk Electre", MainLauncher =true)]			
 	public class MainActivity : Activity
 	{
 		FloatingActionButton fabAlternatif, fabKriteria, fabSubkriteria, fabPenilaian, fabKeputusan, fabRiwayat, fabLogout;

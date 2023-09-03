@@ -710,13 +710,15 @@ namespace SPKElectre.Services
 
                     total += nilai;
 
-                    string strData = dataStrDiscordance[k, l];
+                    //ganti ini
+                    //string strData = dataStrDiscordance[k, l];
+                    string strData = dataRealDiscordance[k, l];
 
                     List<string> strlist = strData.Split(",").ToList();
 
-                    strlist.RemoveAll(x=> x == "0");
+                    var manise = strlist.RemoveAll(x=> x == "0");
 
-                    if (!strData.Equals("0"))
+                    if (!strData.Equals("0") && strlist.Count!=0)
                     {
                         for (int a = 0; a < strlist.Count(); a++)
                         {
